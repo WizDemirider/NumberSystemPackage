@@ -1,0 +1,13 @@
+{
+    "name": "ankitgupta/testpackage",
+    "description": "Trying to create my own package",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ankit Gupta",
+            "email": "argankit@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
