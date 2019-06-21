@@ -9,5 +9,17 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+          "Ankitgupta\\Testpackage\\": "src/"
+        }
+      },
+      "extra": {
+        "laravel": {
+          "providers": [
+            "Ankitgupta\\Testpackage\\TestPackageServiceProvider"
+          ]
+        }
+      }
 }
